@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+  h2 Quiz: el juego de las preguntas
+    h3
+      form(method="get",action="/quizes/answer")
+          p Pregunta: #{pregunta}
+          input(type="text",name="respuesta", value="Responda aqui")
+          input(type="submit",value="Enviar")
+
