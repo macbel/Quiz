@@ -1,7 +1,16 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+    header.main(id="h1")
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        h1 QUIZ: el juego de las preguntas
+    nav.main(id="n1",role="navigaton")
+        span
+            a(href="/") Inicio
+        span
+            a(href="/quizes/question") Preguntas
+    body
+        block section
+    footer.main(id="f1")
+        a(href="http://es.wikipedia.org/wiki/quiz") Que es un Quiz?
+        a(href="author") Autor
