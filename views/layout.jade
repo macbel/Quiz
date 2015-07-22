@@ -1,16 +1,27 @@
 doctype html
 html
-    header.main(id="h1")
-        title= title
-        link(rel='stylesheet', href='/stylesheets/style.css')
-        h1 QUIZ: el juego de las preguntas
-    nav.main(id="n1",role="navigaton")
-        span
-            a(href="/") Inicio
-        span
-            a(href="/quizes/question") Preguntas
     body
-        block section
-    footer.main(id="f1")
-        a(href="http://es.wikipedia.org/wiki/quiz") Que es un Quiz?
-        a(href="author") Autor
+        #page-wrap
+            header.main(id="h1")
+                meta(charset="utf-8")
+                title= title
+                link(rel='stylesheet',type="text/css", href='/stylesheets/style.css')
+                link(rel='stylesheet',type="text/css",
+                media="only screen and (min-width: 530px) and (min-device-width: 481px)"
+                href='/stylesheets/wide.css')
+                link(rel='stylesheet',type="text/css",
+                media="only screen and (max-width: 480px)"
+                href='/stylesheets/smartphone.css')
+                h1 QUIZ: el juego de las preguntas
+            nav.main(id="n1",role="navigaton")
+                span
+                    a(href="/") Inicio
+                span
+                    a(href="/quizes/question") Preguntas
+            #section.main
+                block content
+            footer.main(id="f1")
+                span
+                    a(href="http://es.wikipedia.org/wiki/quiz") Que es un Quiz?
+                span
+                    a(href="/author") Autor
