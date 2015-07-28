@@ -2,260 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b62e7f2-57e3-4214-aa29-fc8f15d86421" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/.dockerignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/CONTRIBUTING.DOCS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/TODO.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/any.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/any.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/assert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/at.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/model/attribute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/belongs-to-many.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/belongs-to.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/bind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/bluebird.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/buffer-concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/call_get.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/callsite-tostring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/cancel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/captured_trace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/catch_filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/chain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/changelog.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/changelog.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/chunk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/collect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/commit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/compact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/connection-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/connection-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/connection-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/connection-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/contains.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/context.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/countBy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/plugins/counter-cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/data-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/data-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/data-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/data-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/data-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/debuggability.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/deferrable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/detect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/difference.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/direct_resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/dottie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/drop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/dropRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/dropRightWhile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/dropWhile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/each.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/each.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/eachRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/es5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/every.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/fabfile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/fill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/finally.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/find.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/find.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/findIndex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/findLast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/findLastIndex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/findWhere.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/first.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/flatten.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/flatten.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/flattenDeep.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/foldl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/foldr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/forEach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/forEachRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/generators.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/lib/generic-pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/test/generic-pool.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/benchmark/get.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/get.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/groupBy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/has-many.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/has-one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/head.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/hooks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/hstore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/include.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/includes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mariadb/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/indexBy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/indexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/lib/inflection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/inflection.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/initial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/inject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/instance-validator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/instance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/intersection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/invoke.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/join.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/last.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/lastIndexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/max.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/method.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/mkdocs.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/model-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/models.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/nodeify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/utils/parameter-validator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/partition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/plant.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/pluck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/promise_array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/promise_resolver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/promisify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/pull.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/pullAt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/query-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/query-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/query-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/query-interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query-interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/query-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/quiz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/race.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/reduce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/reduce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/reduceRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection/reject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/remove.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/rest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/reverse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/run.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/schedule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/sequelize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/set.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/settle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/some.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/sortedIndex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/sortedLastIndex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/sql-string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/synchronous_inspection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/tail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/take.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/takeRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/takeRightWhile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/takeWhile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/thenables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/thru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/timers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/toJSON.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/toString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/transaction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/transform.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/union.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/uniq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/unique.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/unzip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/unzipWith.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/using.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/main/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/uuid.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/uuid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/utils/validator-extras.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/value.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/valueOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/wellknown.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/wellknown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/without.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/wrapperChain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/wrapperCommit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/wrapperConcat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/wrapperPlant.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/wrapperReverse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/wrapperToString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain/wrapperValue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/xor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/zip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/zipObject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array/zipWith.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/quiz_controller.js" afterPath="$PROJECT_DIR$/controllers/quiz_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Quiz.iws" />
@@ -277,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.48043478">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -299,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/models.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33552632">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
@@ -603,27 +350,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.4811321" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.47679326" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23206751" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5188679" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5232068" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -990,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/quiz_controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1018,11 +757,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/models.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33552632">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48043478">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
