@@ -12,8 +12,8 @@ body {
   margin-bottom: 1px;
   color: black;
 }
-section {padding: 20px;}
-header, nav, section {background: #eee; text-align: center}
+content {padding: 20px;}
+header, nav, content {background: #eee; text-align: center}
 footer {background: #eee; text-align: center}
 nav span {margin: 0px 10px 0px 0px;}
 footer span {margin: 0px 10px 0px 0px;}

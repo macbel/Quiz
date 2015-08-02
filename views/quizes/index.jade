@@ -1,0 +1,14 @@
+//
+   Created by Manolo on 30/07/2015.
+
+extends ../layout
+
+block content
+    table
+        - for (var i=0; i < quizes.length; i++)
+            tr
+                td
+                    - var enlace = "quizes/" + quizes[i].id;
+                        a(href=enlace) #{quizes[i].pregunta}
+
+

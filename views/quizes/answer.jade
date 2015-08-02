@@ -3,4 +3,5 @@ extends ../layout
 block content
   h3
     p #{respuesta}
-  a(href='question') Intentelo otra vez
+      - var enlace = "/quizes/" + quiz.id;
+        a(href=enlace)   Volver
