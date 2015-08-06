@@ -4,11 +4,12 @@
 extends ../layout
 
 block content
-    table
+
+    table(width="100%")
         - for (var i=0; i < quizes.length; i++)
-            tr
-                td
+            tr(width="100%")
+                td(width="100%")
                     - var enlace = "quizes/" + quizes[i].id;
                         a(href=enlace) #{quizes[i].pregunta}
-
-
+    a(href="/quizes/new")
+        button(type="button") Crear pregunta
