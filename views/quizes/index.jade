@@ -4,12 +4,16 @@
 extends ../layout
 
 block content
+    form(method="get", action="/quizes")
+        label(for="bus", class="rem") Buscador de preguntas:
+        input(type="text", id="preg_bus", name="search")
+        input(type="submit", value="Buscar")
 
     table(width="100%")
         - for (var i=0; i < quizes.length; i++)
             tr(width="100%")
                 td(width="100%")
-                    - var enlace = "quizes/" + quizes[i].id;
+                    - var enlace = "../quizes/" + quizes[i].id;
                         a(href=enlace) #{quizes[i].pregunta}
     a(href="/quizes/new")
         button(type="button") Crear pregunta

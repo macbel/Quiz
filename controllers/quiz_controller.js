@@ -12,13 +12,21 @@ exports.load = function(req, res, next, quizId){
             }else{next(new Error('No existe quizId=' + quizId));}
         }
     ).catch(function(error){next(error);});
-}
+};
 
 exports.index = function (req,res){
-    models.Quiz.findAll().then(function(quizes){
-        res.render('quizes/index',{quizes: quizes});
-     }
-    ).catch(function (error){next(error);})
+    if ((req.query.search === '') || (req.query.search === undefined)){
+        models.Quiz.findAll().then(function(quizes){
+            res.render('quizes/index',{quizes: quizes});
+         }
+        ).catch(function (error){next(error);})
+    }else{
+        var filtro = '%' + req.query.search.replace(' ','%')  + '%';// replace(req.query.search,' ','%') + '%';
+        models.Quiz.findAll({where: ["pregunta like ?", filtro]}).then(function(quizes){
+                res.render('quizes/index',{quizes: quizes});
+            }
+        ).catch(function(error){next(error);})
+    }
 };
 
 exports.show = function(req, res){
