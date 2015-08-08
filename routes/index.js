@@ -6,10 +6,10 @@ var quizController = require('../controllers/quiz_controller');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Quiz' });
+  res.render('index', { title: 'Quiz', errors: []});
 });
 router.get('/author', function(req, res, next) {
-  res.render('author', { title: 'Autor' });
+  res.render('author', { title: 'Autor', errors: []});
 });
 
 //Autoload de comandos con :quizId

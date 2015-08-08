@@ -30,9 +30,9 @@ var sequelize = new Sequelize(DB_name, user, pwd,
 );
 
 
-//Importar la definición de la tabla Quiz de quiz.js
+//Importar la definiciï¿½n de la tabla Quiz de quiz.js
 var Quiz = sequelize.import(path.join(__dirname,'quiz'));
-exports.Quiz = Quiz; //Exportar la definición de la tabla Quiz para ser usada en otros puntos de la aplicación
+exports.Quiz = Quiz; //Exportar la definiciÃ³n de la tabla Quiz para ser usada en otros puntos de la aplicaciÃ³n
 
 //inicializar la BD
 sequelize.sync().then(function(){
@@ -43,7 +43,7 @@ sequelize.sync().then(function(){
             });
             Quiz.create({pregunta: 'Capital de Portugal',
                          respuesta: 'Lisboa'
-            }).then(function(){console.log('Base de datos inicializada con éxito')});
+            }).then(function(){console.log('Base de datos inicializada con Ã©xito')});
         }
     });
 });
