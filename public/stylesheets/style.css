@@ -13,7 +13,7 @@ body {
   color: black;
 }
 #section {padding: 20px;}
-header, nav, #section {background: #eee; text-align: center}
+header, nav, #section {background: #eee; text-align: center; align-content: center}
 footer {background: #eee; text-align: center}
 #ErrorMsgs {color: #f61; font-size: smaller}
 footer span {margin: 0px 10px 0px 0px;}

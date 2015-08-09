@@ -9,15 +9,22 @@ block content
         input(type="text", id="preg_bus", name="search")
         input(type="submit", value="Buscar")
 
-    table(width="100%")
-        - for (var i=0; i < quizes.length; i++)
-            tr(width="100%")
-                td(width="50%", align="right")
-                    - var enlace = "../quizes/" + quizes[i].id;
-                    a(href=enlace) #{quizes[i].pregunta}
-                td(width="50%", align="left")
-                    - var enlaceEdit = "../quizes/" + quizes[i].id + "/edit";
-                    a(href=enlaceEdit)
-                        button Editar
+    #listapreguntas(align="center")
+        table(align="center")
+            - for (var i=0; i < quizes.length; i++)
+                tr(width="100%")
+                    td(align="center")
+                        - var enlace = "../quizes/" + quizes[i].id;
+                        a(href=enlace) #{quizes[i].pregunta}
+                    td(align="center")
+                        - var enlaceEdit = "../quizes/" + quizes[i].id + "/edit";
+                        a(href=enlaceEdit)
+                            button Editar
+                    td(align="center")
+                        - var accionDelete = "../quizes/" + quizes[i].id + "?_method=delete";
+                        - var confirm= "return confirm('Borrar:" + quizes[i].pregunta + "');"
+                        form(method="post", action=accionDelete)
+                            button(type="submit", onClick=confirm) Borrar
+
     a(href="/quizes/new")
         button(type="button") Crear pregunta
