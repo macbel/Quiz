@@ -12,8 +12,12 @@ block content
     table(width="100%")
         - for (var i=0; i < quizes.length; i++)
             tr(width="100%")
-                td(width="100%")
+                td(width="50%", align="right")
                     - var enlace = "../quizes/" + quizes[i].id;
-                        a(href=enlace) #{quizes[i].pregunta}
+                    a(href=enlace) #{quizes[i].pregunta}
+                td(width="50%", align="left")
+                    - var enlaceEdit = "../quizes/" + quizes[i].id + "/edit";
+                    a(href=enlaceEdit)
+                        button Editar
     a(href="/quizes/new")
         button(type="button") Crear pregunta

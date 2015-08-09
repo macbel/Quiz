@@ -1,0 +1,11 @@
+//
+   Created by Manolo on 03/08/2015.
+
+extends ../layout
+
+block content
+   p Editar pregunta
+   -var accion = "/quizes/" + quiz.id + "?_method=put";
+   form(method="post",action=accion)
+    include _form.jade
+

@@ -17,6 +17,7 @@ header, nav, #section {background: #eee; text-align: center}
 footer {background: #eee; text-align: center}
 #ErrorMsgs {color: #f61; font-size: smaller}
 footer span {margin: 0px 10px 0px 0px;}
+nav span  {margin: 0px 10px 0px 0px;}
 a {
   color: #00B7FF;
 }
