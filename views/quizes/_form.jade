@@ -1,11 +1,20 @@
 block content
     - var pregunta = quiz.pregunta;
     - var respuesta = quiz.respuesta;
+    - var tema = quiz.tema;
     label(for="preg", class="rem") Pregunta:
     input(type="text", id="preg", name="quiz[pregunta]", value=pregunta)
     br
     label(for="resp", class="rem") Respuesta:
     input(type="text", id="resp", name="quiz[respuesta]", value=respuesta)
+    br
+    label(for="tem", class="rem") Tema:
+    select(name="quiz[tema]", value=tema)
+        option(value="Otros") Otros
+        option(value="Humanidades") Humanidades
+        option(value="Ocio") Ocio
+        option(value="Ciencia") Ciencia
+        option(value="Tecnologia") Tecnologia
     br
     a(href="/quizes")
        button(type="button") Cancelar

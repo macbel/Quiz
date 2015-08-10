@@ -4,6 +4,7 @@
 extends ../layout
 
 block content
+    h3 #{tema_mostrar}
     form(method="get", action="/quizes")
         label(for="bus", class="rem") Buscador de preguntas:
         input(type="text", id="preg_bus", name="search")

@@ -7,17 +7,19 @@ html
                 title= title
                 link(rel='stylesheet',type="text/css", href='/stylesheets/style.css')
                 link(rel='stylesheet',type="text/css",
-                media="only screen and (min-width: 530px) and (min-device-width: 481px)"
+                media="only screen and (min-width: 530px) and (min-device-width: 501px)"
                 href='/stylesheets/wide.css')
                 link(rel='stylesheet',type="text/css",
-                media="only screen and (max-width: 480px)"
+                media="only screen and (max-width: 500px)"
                 href='/stylesheets/smartphone.css')
                 h1 QUIZ: el juego de las preguntas
-            nav.main(id="n1",role="navigaton")
+            nav.main(id="n1")
                 span
                     a(href="/") Inicio
                 span
                     a(href="/quizes") Preguntas
+                span
+                    a(href="/quizes/temas") Temas
             #section.main
                 - if (errors.length){
                     span(id="ErrorMsgs") Corregir Errores:
