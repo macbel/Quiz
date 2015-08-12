@@ -13,13 +13,14 @@ html
                 media="only screen and (max-width: 500px)"
                 href='/stylesheets/smartphone.css')
                 h1 QUIZ: el juego de las preguntas
-            nav.main(id="n1")
-                span
-                    a(href="/") Inicio
-                span
-                    a(href="/quizes") Preguntas
-                span
-                    a(href="/quizes/temas") Temas
+            #secNav.main
+                nav(id="n1", role="navigation")
+                    span
+                        a(href="/") Inicio
+                    span
+                        a(href="/quizes") Preguntas
+                    span
+                        a(href="/quizes/temas") Temas
             #section.main
                 - if (errors.length){
                     span(id="ErrorMsgs") Corregir Errores:

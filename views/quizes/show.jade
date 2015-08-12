@@ -7,4 +7,9 @@ block content
           p Pregunta: #{quiz.pregunta}
           input(type="text",name="respuesta", value="Responda aqui")
           input(type="submit",value="Enviar")
-
+      - var enlaceComentario = "/quizes/" + quiz.id + "/comments/new";
+      a(href=enlaceComentario)
+        button Nuevo Comentario
+      p Comentarios:
+      - for (index in quiz.Comments)
+        p #{quiz.Comments[index].texto}
