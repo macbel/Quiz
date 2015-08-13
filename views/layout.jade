@@ -13,12 +13,12 @@ html
     body
         #page-wrap
             header.main(id="h1")
-                - if (!session){
+                - if (!session.user){
                     span.right
                         a(href="/login") Login
                 - }else{
                     span.right
-                        #{session.user.username}
+                        p #{session.user.username}
                         a(href="/logout") Logout
                 - }
                 h2 QUIZ: el juego de las preguntas
@@ -35,7 +35,7 @@ html
                         br
                     -   for (var i in errors)
                             span(id="ErrorMsgs")
-                                #{errors[i].message}
+                                p #{errors[i].message}
                             br
                 -   }
                 block content
