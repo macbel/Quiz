@@ -12,13 +12,14 @@ body {
   margin-bottom: 1px;
   color: black;
 }
+
 #section {padding: 20px;}
-header, #secNav, #section  {background: #eee; text-align: center; align-content: center}
+header, nav, #section  {background: #eee; text-align: center; align-content: center}
 footer {background: #eee; text-align: center}
 #ErrorMsgs {color: #f61; font-size: smaller}
 footer span {margin: 0px 10px 0px 0px;}
 nav span  {margin: 0px 10px 0px 0px;}
-#secNav  {text-align: center; align-content: center}
+.right {float: right;}
 a {
   color: #00B7FF;
 }

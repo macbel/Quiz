@@ -1,0 +1,18 @@
+//
+   Created by Manolo on 03/08/2015.
+
+extends ../layout
+
+block content
+   h2 Login
+   form(method="post",action="/login")
+    #field
+       label(for="login") Login:
+       br
+       input(type="text", id="login", name="login", size=30, value="")
+    #field
+       label(for="password") Password:
+       br
+       input(type="text", id="password", name="password", size=30, value="")
+    #actions
+       input(type="submit", name="commit", value="Login")
