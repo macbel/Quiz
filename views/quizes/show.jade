@@ -12,4 +12,10 @@ block content
         button Nuevo Comentario
       p Comentarios:
       - for (index in quiz.Comments)
-        p #{quiz.Comments[index].texto}
+        - if (quiz.Comments[index].publicado || session.user)
+            span #{quiz.Comments[index].texto}
+            - if (session.user && !quiz.Comments[index].publicado){
+            - enlacePublish = "/quizes/" + quiz.id + "/comments/" + quiz.Comments[index].id + "/publish";
+                a(href=enlacePublish)
+                    button Publicar
+            - }
