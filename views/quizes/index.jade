@@ -17,15 +17,17 @@ block content
                     td(align="center")
                         - var enlace = "../quizes/" + quizes[i].id;
                         a(href=enlace) #{quizes[i].pregunta}
-                    td(align="center")
-                        - var enlaceEdit = "../quizes/" + quizes[i].id + "/edit";
-                        a(href=enlaceEdit)
-                            button Editar
-                    td(align="center")
-                        - var accionDelete = "../quizes/" + quizes[i].id + "?_method=delete";
-                        - var confirm= "return confirm('Borrar:" + quizes[i].pregunta + "');"
-                        form(method="post", action=accionDelete)
-                            button(type="submit", onClick=confirm) Borrar
+                    - if (session.user)
+                        td(align="center")
+                            - var enlaceEdit = "../quizes/" + quizes[i].id + "/edit";
+                            a(href=enlaceEdit)
+                                button Editar
+                        td(align="center")
+                            - var accionDelete = "../quizes/" + quizes[i].id + "?_method=delete";
+                            - var confirm= "return confirm('Borrar:" + quizes[i].pregunta + "');"
+                            form(method="post", action=accionDelete)
+                                button(type="submit", onClick=confirm) Borrar
 
-    a(href="/quizes/new")
-        button(type="button") Crear pregunta
+    - if (session.user)
+        a(href="/quizes/new")
+            button(type="button") Crear pregunta
