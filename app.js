@@ -37,10 +37,35 @@ app.use(function(req, res, next){
   //guardar path en session.redir para después de login
   if (!req.path.match(/\/login|\/logout/)){
     req.session.redir = req.path;
+
   }
+
   //hacer visible req.session en las vistas
   res.locals.session = req.session;
   next();
+});
+
+//Controlador de tiempo máximo de sesión
+app.use (function (req, res, next) {
+  var fecha = new Date();
+  var timenow = fecha.getTime();
+  if (req.session.user) {
+    if (!req.session.time) {
+      req.session.time = timenow;
+      next();
+    } else {
+      if ((timenow - req.session.time) > 120000) { //tiempo máximo 2 minutos: 120.000 milisegundos
+        delete req.session.user;
+        delete req.session.time;
+        next();
+      } else {
+        req.session.time = timenow;
+        next();
+      }
+    }
+  }else{
+    next();
+  }
 });
 
 app.use('/', routes);
