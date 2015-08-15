@@ -1,0 +1,34 @@
+//
+   Created by Manolo on 30/07/2015.
+
+extends ../layout
+
+block content
+    h3 ESTADÍSTICAS
+    #listapreguntas(align="center")
+        table(align="center")
+                tr(width="100%")
+                    td(align="center")
+                        span Núm. preguntas:
+                    td(align="center")
+                        span #{stats.numPreguntas}
+                tr(width="100%")
+                    td(align="center")
+                        span Núm. comentarios:
+                    td(align="center")
+                        span #{stats.numComentarios}
+                tr(width="100%")
+                    td(align="center")
+                        span Media comentarios x pregunta:
+                    td(align="center")
+                        span #{stats.mediaComentarios}
+                tr(width="100%")
+                    td(align="center")
+                        span Preguntas sin comentarios:
+                    td(align="center")
+                        span #{stats.preguntasSin}
+                tr(width="100%")
+                    td(align="center")
+                        span Preguntas con comentarios:
+                    td(align="center")
+                        span #{stats.preguntasCon}
